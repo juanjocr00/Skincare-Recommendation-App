@@ -114,7 +114,7 @@ elif criteria_sort == 'Worst rating':
 ### Add a header for the list of recommended products###
 st.header("Product recommendations:")
 ### Establish a different column for Procuct name, Brand, Rating and Price ###
-col_1, col_2, col_3, col_4 = st.columns([5, 3, 1, 1])
+col_1, col_2, col_3, col_4 = st.columns([4.5, 2.5, 1, 1])
 ### Number of rows of products to show in each column ###
 c_max=10
 c_1=0
