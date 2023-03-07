@@ -1,0 +1,4 @@
+Dataset from:
+https://www.kaggle.com/datasets/dominoweir/skincare-product-ingredients
+
+
