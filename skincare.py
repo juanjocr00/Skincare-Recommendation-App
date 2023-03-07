@@ -37,7 +37,7 @@ st.header("Criteria Selection for the product:")
 ### Add the Selectboxes for the different criteria selection for the recommendation engine ###
 col1, col2, col3 = st.columns([1, 1, 1])
 with col3:
-    criteria_1 = st.selectbox("Type of product:",[ "All", "Face Cream", "Cleanser", "Sun protect", "Treatment", "Eye cream", "Face Mask"])
+    criteria_1 = st.selectbox("Type of product:",[ "All", "Face cream", "Cleanser", "Sun protect", "Treatment", "Eye cream", "Face Mask"])
 with col1:
     criteria_2 = st.selectbox("Your skin type:", ["Dry", "Oily", "Combination", "Normal", "Sensitive"])
 with col2:
@@ -51,7 +51,7 @@ with sort1:
 ### Use the criteria given by the user to just show the protuct type of their choice from the dataset ###
 if criteria_1 == "All":
     filtered_df_1 = product_type[product_type["product_type"] == product_type["product_type"].tolist()]
-elif criteria_1 == "Face Cream":
+elif criteria_1 == "Face cream":
     filtered_df_1 = product_type[product_type["product_type"] == "Moisturizer"]
 else:
     filtered_df_1 = product_type[product_type["product_type"] == criteria_1]
