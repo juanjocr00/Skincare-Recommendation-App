@@ -21,8 +21,8 @@ The Dataset used for this project (link on Acknowledgments) contains information
 Use it yourself: https://juanjocr00-skincare-recommendation-app-skincare-xfb2oq.streamlit.app
 
 ![App Screenshot](https://i.imgur.com/TFBXzTn.png)
-
-
+## Dimensional model
+![dimensional_model](https://i.imgur.com/LYlrIfi.png)
 ## Acknowledgements
 
  - [Dataset used for the project](https://www.kaggle.com/datasets/dominoweir/skincare-product-ingredients)
